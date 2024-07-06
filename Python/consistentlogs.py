@@ -30,6 +30,6 @@ def findConsistentLogs(userEvent):
     return max_length
 
 # Example usage:
-#userEvent = [1, 2, 1, 3, 4, 2, 4, 3, 3, 4]
-userEvent = [9,9,9]
+userEvent = [1, 2, 1, 3, 4, 2, 4, 3, 3, 4]
+#userEvent = [9,9,9]
 print(findConsistentLogs(userEvent))  # Output: 8
